@@ -38,35 +38,35 @@ function getResult(){
         result="its  draw!";
     }
 
-    if (randomChoice==="rock"&& userChoice==="paper"){
+    else if (randomChoice==="rock"&& userChoice==="paper"){
         result="you win!";
     }
 
-    if (randomChoice==="rock"&& userChoice==="scissors"){
+    else if (randomChoice==="rock"&& userChoice==="scissors"){
         result="you lose!";
     }
 
-    if  (randomChoice==="paper"&& userChoice==="scissors"){
+    else if  (randomChoice==="paper"&& userChoice==="scissors"){
         result="you win!";
     }
 
-        if (randomChoice==="rock"&& userChoice==="scissors"){
+    else if (randomChoice==="rock"&& userChoice==="scissors"){
         result="you lose!";
     }
 
-    if  (randomChoice==="paper"&& userChoice==="scissors"){
+    else if  (randomChoice==="paper"&& userChoice==="scissors"){
         result="you win!";
     }
 
-    if (randomChoice==="paper"&& userChoice==="rock"){
+    else if (randomChoice==="paper"&& userChoice==="rock"){
         result="you lose!";
     }
 
-    if (randomChoice==="scissors"&& userChoice==="rock"){
+    else if (randomChoice==="scissors"&& userChoice==="rock"){
         result="you win!";
     }
 
-    if (randomChoice==="scissors"&& userChoice==="paper"){
+    else (randomChoice==="scissors"&& userChoice==="paper"){
         result="you lose!";
     }
 
